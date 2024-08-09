@@ -77,3 +77,29 @@
     right: 15px
 }
 
+.carousel_pagination {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.pagination_dot {
+    height: 10px;
+    width: 10px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.pagination_dot:hover {
+    transform: scale(1.2);
+}
+
+.pagianation_dot_active {
+    background-color: steelblue;
+    transform: scale(1.2);
+}
+
